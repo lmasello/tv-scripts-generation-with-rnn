@@ -2,10 +2,15 @@
 The project consists of generating scripts of a TV series using Recurrent Neural Networks (RNNs) and the [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv) of scripts from nine seasons. The model generates fake dialogues such as the one below based on the learned patterns from the training data.
 
 > george: what are you doing here?
+
 > jerry: what?
+
 > george: well, you know...
+
 > jerry:(to the phone) yeah, yeah, i got to get out of here!
+
 > jerry:(still talking) what?
+
 > jerry: i thought he was in the shower.(george laughs)
 
 To generate the TV scripts, the project encompasses the following steps:
