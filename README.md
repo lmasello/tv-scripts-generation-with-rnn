@@ -18,7 +18,7 @@ To generate the TV scripts, the project encompasses the following steps:
   * Create a look-up table to transform the vocabulary words to ids
   * Tokenize punctuation so that symbols are treated separately from words (e.g., bye! is composed by two ids, one for bye and another for the exclamation mark)
   * Prepare feature and target tensors by batching words into data chunks of a given size
-* Building the neural network
+* Build the neural network
   * Implement the RNN using [PyTorch's Module class](http://pytorch.org/docs/master/nn.html#torch.nn.Module) using either a GRU or LSTM
   * Set hyperparameters
     * sequence_length
@@ -37,7 +37,7 @@ To generate the TV scripts, the project encompasses the following steps:
 The project implementation complies with Udacity's [list of rubric points](https://review.udacity.com/#!/rubrics/2260/view) required to pass the project. The whole implementation can be found in either the [dlnd_tv_script_generation.ipynb](./dlnd_tv_script_generation.ipynb) Jupyter notebook or [dlnd_tv_script_generation.html](./dlnd_tv_script_generation.html) file.
 
 ### Model architecture
-The model architecture is composed of the following layers and its implementation can be found in the [RNN class](./dlnd_tv_script_generation.html#Build-the-Neural-Network).
+The model architecture is composed of the following layers and its implementation can be found in the RNN class.
 
 | Layer         		|     Description	        		                			                                                      |
 |:-----------------:|:-------------------------------------------------------------------------------------------------------:|
